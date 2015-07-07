@@ -2,11 +2,11 @@
 # Blog Settings
 #
 author: Philipp Mager
-description: Get Sharp, Be Sharp, Stay Sharp... 
+description: Get Sharp, Be Sharp, Stay Sharp
 url: http://phmager.github.io
-title: Get Sharp, Be Sharp, Stay Sharp... 
-subtitle: Everything about C#
-gravatar_url: 
+title: Get Sharp, Be Sharp, Stay Sharp
+subtitle: Everything you need to know about C#
+gravatar_url: /images/me.png
 subscribe_rss: 
 
 # Github repositories
@@ -17,13 +17,15 @@ github_repo_url: https://github.com/phmager/phmager.github.io/
 twitter_user: PhilippMager
 twitter_tweet_button: true
 
+# Xing
+xing_user: Philipp_Mager6
+
 # Disqus Comments
 disqus_short_name: phmager
 disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id: UA-64463047-2
-
 
 #
 # Jekyll Settings

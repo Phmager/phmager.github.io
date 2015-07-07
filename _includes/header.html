@@ -4,7 +4,14 @@
 	{% endif %}
 </div>
 <hgroup>
-  <h1><a href="/">{{ site.title }}</a></h1>
+  <h1 class="my-title"><a href="/">
+  <table style="table-layout: auto">
+	  <tr><td>Get</td><td>Sharp</td></tr>
+	  <tr><td>Be</td><td>Sharp</td></tr>
+	  <tr><td>Stay</td><td>Sharp</td></tr>
+  </table>
+  <!--{{ site.title }} -->
+  </a></h1>
   {% if site.subtitle %}
     <h2>{{ site.subtitle }}</h2>
   {% endif %}
@@ -20,6 +27,9 @@
 		{% endif %}
 		{% if site.github_user %}
 			<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+		{% endif %}
+		{% if site.xing_user %}
+			<a class="xing" href="https://www.xing.com/profile/{{ site.xing_user }}" title="Xing">Xing</a>
 		{% endif %}
 		{% if site.subscribe_rss %}
 			<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>

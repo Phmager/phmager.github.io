@@ -43,7 +43,4 @@ See the previous answer about Disqus and Google Analytics.
 
 Absolutely nobody, other than occasionally posting aggregate stats about my blog on occasion.
 
-## Even If I Offered You 10 Million Dollars?
-Let's talk off-line in private.... er... I mean NO! Absolutely Not.
-Haacked.com doesn't gather any information worth selling.
 

@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About me
-tags: [about]
-modified: 2015-07-02T20:53:07.573882-04:00
-comments: true
+title: "About Me"
+date: 2015-07-02T20:53:07.573882-04:00
+comments: false
+categories: [personal]
+sharing: false
 ---
 
 Welcome to my blog, I'm happy you found it. The blog is hosted by github-pages and you can contact me or give me feedback by adding issues to the corresponding repository: [Create new Issue](https://github.com/Phmager/phmager.github.io/issues/new). If you find any bugs or wrong information, and want to correct them, you can use pull requests for the same repository.
