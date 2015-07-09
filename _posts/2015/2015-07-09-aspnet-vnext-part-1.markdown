@@ -3,10 +3,10 @@ layout: post
 title: "ASP.NET vNext Part 1/n: Deploy a Web Api Locally"
 date: 2015-07-09 +0100
 comments: true
-categories: [example]
+categories: [ASP.NET, vNext]
 ---
 
-{% include_relative 2015-07-09-aspnet-vnext-outline.markdown %}
+{% include outlines/2015-07-09-aspnet-vnext-outline.markdown %}
   
 For this post you need Visual Studio 2015 RC installed and ASP.NET vNext beta5.
 To update your ASP.NET runtime you need to run ```dnvm upgrade``` in your console.
