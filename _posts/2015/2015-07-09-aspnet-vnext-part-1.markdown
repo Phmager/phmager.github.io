@@ -16,7 +16,7 @@ The full source code can be found in [this repository](https://github.com/Phmage
 First we create a new ASP.NET Web API Project:    
 ![](https://cloud.githubusercontent.com/assets/9350951/8603897/49825d94-267b-11e5-9321-31725e3fe7df.png)
 
-You will see, that a very basic web api project has been created. 
+You will see, that a very basic Web API Project has been created. 
 Now we need to change the project to beta5, if it isn't already. 
 Open the project.json and change all dependencies to beta5.
 Right-click the Project->Properties->Application and see, if the DNX version is beta5.
@@ -81,7 +81,7 @@ It is changing the MvcOptions on Startup to use indented formatting for JSON.
 
 Now when you take a look at the **/environment** endpoint you will see the JSON in a readable manner.
 
-Until now we ran the web api locally with IIS:
+Until now we ran the Web API locally with IIS:
 ![](https://cloud.githubusercontent.com/assets/9350951/8604691/6e73edca-2680-11e5-8f27-ec413fb73d54.png)
 This can be changed to web. 
 When running it with web, a console will open and it will be self hosted by it. 
@@ -94,7 +94,7 @@ Microsoft.AspNet.Hosting
   --server.urls http://localhost:5000
 ```
 
-Last we will do one more thing and create a command called kestrel, which will start our web api with the OWIN web server Kestrel.
+Last we will do one more thing and create a command called kestrel, which will start our Web API with the OWIN web server Kestrel.
 For it we must add the following command:
 
 ```
@@ -107,7 +107,7 @@ and this dependency:
 "Kestrel": "1.0.0-beta5"
 ```
  
-Save the file and we see the command added to the run menu. This will start the web api similar to the web command as a console.
+Save the file and we see the command added to the run menu. This will start the Web API similar to the web command as a console.
  
 ![](https://cloud.githubusercontent.com/assets/9350951/8604866/7d29b970-2681-11e5-852f-edcb938c434a.png)
 
