@@ -103,7 +103,7 @@ Microsoft.AspNet.Hosting
   --server.urls http://localhost:5000
 ```
 
-Last we will do one more thing and create a command called kestrel, which will start our web api with the Kestrel server.
+Last we will do one more thing and create a command called kestrel, which will start our web api with the OWIN web server Kestrel.
 For it we must add the following command:
 
 ```
