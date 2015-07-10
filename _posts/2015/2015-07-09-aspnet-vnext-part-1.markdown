@@ -3,7 +3,7 @@ layout: post
 title: "ASP.NET vNext Part 1/n: Deploy a Web Api Locally"
 date: 2015-07-09 +0100
 comments: true
-categories: [ASP.NET, vNext]
+categories: [ASP.NET vNext]
 ---
 
 {% include outlines/2015-07-09-aspnet-vnext-outline.markdown %}
@@ -111,7 +111,7 @@ Save the file and we see the command added to the run menu. This will start the 
  
 ![](https://cloud.githubusercontent.com/assets/9350951/8604866/7d29b970-2681-11e5-852f-edcb938c434a.png)
 
-Well done, we have achieved hosting a asp.net locally using IIS, standalone (web) and a Kestrel server.
+Well done, we have achieved hosting a ASP.NET Web API locally using IIS Express, a standalone server and a Kestrel server.
 Further we adjusted the ASP.NET configuration and used some new C# language feature.
 
 Next we will see, how to deploy the application to a local Docker Machine running in VirualBox.
