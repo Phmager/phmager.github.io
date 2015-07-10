@@ -3,7 +3,7 @@ layout: post
 title: "ASP.NET vNext Part 1/n: Deploy a Web Api Locally"
 date: 2015-07-09 +0100
 comments: true
-categories: [ASP.NET vNext]
+categories: [ASP.NET, vNext]
 ---
 
 {% include outlines/2015-07-09-aspnet-vnext-outline.markdown %}
@@ -77,7 +77,7 @@ services.AddMvc().Configure<MvcOptions>(options =>
         formatter.SerializerSettings.Formatting = Formatting.Indented;
 });
 ```
-It is changing the MvcOptions on Startup to use indented formatting for JSON.
+It is changing the `MvcOptions` on Startup to use indented formatting for JSON.
 
 Now when you take a look at the **/environment** endpoint you will see the JSON in a readable manner.
 
