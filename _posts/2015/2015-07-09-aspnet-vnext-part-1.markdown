@@ -115,3 +115,5 @@ Well done, we have achieved hosting a ASP.NET Web API locally using IIS Express,
 Further we adjusted the ASP.NET configuration and used some new C# language feature.
 
 Next we will see, how to deploy the application to a local Docker Machine running in VirualBox.
+
+[Next Part](/archive/2015/07/16/aspnet-vnext-part-2/)
